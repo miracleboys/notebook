@@ -3,7 +3,8 @@
 input[type=text],
 input[type=password] {
     width: 100%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
@@ -16,6 +17,7 @@ input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
+
 
 /* Set a style for all buttons */
 button {
@@ -31,6 +33,23 @@ button {
 
 button:hover {
     opacity: 1;
+}
+
+/* 登录按钮 */
+#signup {
+    margin: 0;
+    position: absolute;
+    right: 100px;
+}
+
+#user{
+    position: absolute;
+    right: 100px;
+    top: -20px;
+}
+
+#username{
+    
 }
 
 /* Extra styles for the cancel button */
